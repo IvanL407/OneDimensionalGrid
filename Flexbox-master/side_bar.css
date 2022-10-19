@@ -8,11 +8,12 @@ body{
   height: 100vh;
   padding-left: 10px;
   align-items: stretch;
-  justify-content: space-evenly;
 }
 
 .item {
   font-weight: bold;
+  flex-direction: column;
+  justify-content: space-between;
   display: block;
   font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif ;
 }
